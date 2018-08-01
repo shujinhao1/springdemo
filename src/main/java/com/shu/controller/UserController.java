@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
     @RequestMapping("/index")
     public String index(){
+        System.out.println(1);
         return "index";
     }
 }
